@@ -1,0 +1,13 @@
+a[ id= "bel" ]:target ~ #top-stop div.panel {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+
+a[ id= "ber" ]:target ~ #top-stop div.panel {
+    -webkit-transform: translateY( -500px );
+    transform: translateY( -500px );
+}
+a[ id= "bvi" ]:target ~ #top-stop div.panel {
+    -webkit-transform: translateY( -1000px );
+    transform: translateY( -1000px );
+}

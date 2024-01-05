@@ -1,0 +1,526 @@
+/* Add here all your css styles (customizations) */
+
+
+@media (min-width: 992px) {
+  .header-v1 .container > .navbar-header,
+  .header-v1 .container-fluid > .navbar-header,
+  .header-v1 .container > .navbar-collapse,
+  .header-v1 .container-fluid >
+  .navbar-collapse {
+      margin-bottom: 10px;
+    }
+}
+/*-----------------------------------
+  Super extra small buttons
+------------------------------------*/
+
+ .btn-u-xxs, a.btn-u-xxs {
+    font-size: 11px;
+    padding: 2px 8px;
+    line-height: 12px;
+}
+
+
+/*----------------------------------
+  Expandable List - http://jasalguero.com/ledld/development/web/expandable-list/
+ ----------------------------------*/
+
+ #listContainer{
+   margin-top:15px;
+ }
+
+#expList {
+  padding-left:5px;
+}
+
+#expList li {
+  /*font-weight: bold;*/
+  color: #5b92e5;
+}
+
+#expList ul.sub2 li {
+  font-style:italic;
+  font-weight: normal;
+}
+
+#expList ul.leaf li,
+#expList li.leaf {
+  font-style: normal;
+  font-weight: normal;
+  color: #737373;
+  padding:2px 0;
+}
+
+/* Use if the li are links
+#expList ul.leaf li:hover,
+#expList li.leaf:hover {
+  font-style: normal;
+  font-weight: normal;
+  color: #5b92e5;
+}
+*/
+
+ #expList ul, li {
+     list-style: none;
+     margin:0;
+     padding:0;
+     cursor: pointer;
+ }
+
+ #expList li {
+     line-height:140%;
+     text-indent:0px;
+     background-position: 1px 8px;
+     padding-left: 20px;
+     background-repeat: no-repeat;
+ }
+
+/* add pdf icon on leaves
+ #expList li:before {
+  content: "\f1c1";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+  font-style:normal;
+}
+*/
+
+
+ /* Collapsed state for list element */
+
+ #expList li.collapsed:before {
+  content: "\f07b"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+  color: #5b92e5;
+  font-style:normal;
+}
+
+
+ #expList li.expanded:before {
+  content: "\f07c"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+  color: #5b92e5;
+  font-style:normal;
+}
+
+ .listControl{
+     margin-top: 5px;
+     margin-bottom: 10px;
+   }
+/*--------------------------------------------------
+    [2. Header - Navbar]
+----------------------------------------------------*/
+
+.header {
+	border-bottom: none;
+}
+
+.header-v1 .navbar-default .navbar-nav > li > a {
+  padding: 10px 30px 12px 20px;
+}
+
+.navbar-brand {
+    padding-right: 2px;
+}
+
+.navbar-toggle {
+    margin-top: 5px;
+}
+
+
+/*----------------------------------
+  title
+-----------------------------------*/
+.title {
+    display: block;
+    margin: 10px 0 20px 0;
+}
+
+.title a {
+    text-decoration: none;
+    color: #555;
+}
+
+.title h1 {
+  margin: 0 0 -2px 0;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #5B92E5;
+}
+
+
+/*----------------------------------
+  headline
+-----------------------------------*/
+.headline {
+  margin-bottom: 10px;
+}
+
+.headline h2 {
+  padding-top: 2px;
+}
+
+/* Footer
+------------------------------------*/
+
+.footer {
+    color: #5B92E5;
+}
+
+.copyright {
+  color: #5B92E5;
+}
+
+.copyright .row {
+  margin-right: 30px;
+}
+
+/*----------------------------------
+ language document button
+-----------------------------------*/
+
+.btn-language-doc {
+    min-width: 6em;
+    margin: 2px 0;
+}
+
+
+span.label-blue,
+span.badge-blue {
+    background: #5B92E5;
+    color: #fff;
+    padding: 0px 4px 2px;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+}
+
+
+
+
+/*----------------------------------
+ Tabs
+-----------------------------------*/
+
+.acc-v1 a.active,
+.acc-v1 a.accordion-toggle,
+.acc-v1 a.accordion-toggle:hover {
+    background: #5B92E5;
+    color: #fff;
+}
+
+.pager-v2 li > a,
+.pager-v2 li > span {
+  color: #fff;
+	background: #5B92E5;
+	border-color: #5B92E5;
+  margin: 15px 0;
+}
+
+
+.acc-v1-grey .panel-heading {
+    background: #999;
+    color: #fff;
+}
+.acc-v1-grey .panel-heading:hover {
+    background: #ccc;
+    color: #fff;
+}
+
+.acc-v1-grey .panel-heading a:hover {
+    text-decoration: none;
+    color: #999;
+}
+
+
+.acc-v1-grey .panel-heading a.active,
+.acc-v1-grey .panel-heading a.accordion-toggle,
+.acc-v1-grey .panel-heading a.accordion-toggle:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*----------------------------------
+  Pager
+ -----------------------------------*/
+.pager.pager-v2 li > a:hover,
+.pager.pager-v2 li > a:focus {
+  background: #96B9EE;
+  border-color: #96B9EE;
+}
+
+
+
+/*----------------------------------
+  news
+ -----------------------------------*/
+
+.news-read-more i {
+    color: #5B92E5;
+    background: none;
+}
+
+/*----------------------------------
+ Side-events styling
+-----------------------------------*/
+
+.side-event-day .panel-title {
+  font-weight: bold;
+}
+
+.side-event-slot h4,
+.side-event {
+  border-bottom: dotted 1px #999;
+}
+
+.side-event p {
+  margin-bottom: 0px;
+  border-bottom: none;
+  font-size: smaller;
+}
+
+.side-event-time {
+  font-weight: bold;
+}
+
+.side-event-banner {
+  color: red;
+}
+
+.side-event-title {
+  color:  #5b92e5;
+}
+
+.side-event-link {
+  text-align: left;
+}
+
+.side-event-slot-remark,
+.side-event-remark {
+  font-style: italic;
+  text-align: center;
+}
+
+
+/*----------------------------------
+Side-event main page styling
+-----------------------------------*/
+
+.side-event-page-title {
+  font-size: large;
+}
+
+.event-page-organizer {
+  font-style: italic;
+}
+.event-page-alert{
+  font-style:italic;
+  font-weight: bolder;
+}
+
+.event-page-body{
+    max-width: 750px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.event-page-body p{
+    margin-bottom: 25px;
+}
+
+.event-agenda {
+  max-width: 650px;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.event-agenda h3 {
+    margin-left: -1em;
+    padding-top: 15px;
+    font-size: larger;
+    font-weight: 600;
+    color: #888;
+}
+
+.event-agenda h4 {
+  font-size: medium;
+  margin-left: -1em;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.agenda-item {
+    margin-bottom: 6px;
+    font-size: larger;
+}
+
+.agenda-item-time {
+  color: #5b92e5;
+  padding-left: 1em;
+}
+
+.agenda-item-title {
+  font-weight: 600;
+}
+
+.agenda-item-files a {
+  text-decoration: none;
+}
+
+.agenda-item-files ul {
+  list-style: none;
+  padding: 2px 0;
+}
+
+.agenda-item-files li {
+  padding-left: 1.3em;
+  color: #5b92e5;
+
+}
+
+.agenda-item-files li:before {
+  content: "\f1c1"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+  color: #5b92e5;
+}
+
+
+.speaker-name,
+.speaker-position,
+.speaker-organization{
+  font-style: italic;
+}
+
+
+/*----------------------------------
+ unsc documents styling
+ ----------------------------------*/
+
+ .unsc-document {
+   padding-left: 15px;
+ }
+
+.unsc-agenda-item-number {
+  font-size: small;
+  margin-bottom: 0;
+
+}
+
+.unsc-document-number {
+  font-size: x-small;
+  margin-bottom: 0;
+}
+
+.unsc-agenda-item-title{
+  font-weight: bolder;
+  font-size: large;
+  margin-bottom: 0;
+}
+
+.unsc-document-title {
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+.unsc-document-links > li {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+
+.unsc-document-alert {
+    background: #5b92e5;
+    color: #fff;
+    font-size: smaller;
+    font-weight: 200;
+    padding: 0px 4px;
+
+}
+
+/*--------------------------------------
+ Events styling
+-------------------------------------- */
+
+ul#events {
+    list-style: none;
+    padding: 0;
+}
+
+.event {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 3px 2px -2px #e7e7e7;
+}
+
+.date {
+    border-right: solid 1px #ccc;
+}
+
+.month {
+    text-transform: uppercase;
+}
+.day {
+    font-size: 50px;
+    color: #888;
+}
+
+.end-date {
+    margin-left: 12px;
+}
+
+.event-heading {
+    color: #069;
+    margin-bottom: 20px;
+}
+
+.event-time-location {
+    margin-bottom: 20px;
+}
+
+.event-time-location p {
+    margin-bottom: 3px;
+}
+
+.event-time-location span {
+    margin-right: 15px;
+}
+
+.event-time-location i {
+    margin-right: 5px;
+    color: #8bb2c6;
+}
+
+.event-body img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.event-tags {
+    margin-top: 20px;
+}
+
+#rel-docs a:hover {
+    text-decoration: none;
+}
+
+#rel-docs a:hover .fa {
+    color: #8bb2c6;
+}
+
+#rel-docs a:hover .fa-inverse {
+    color: #fff;
+}
+
+.affix {
+  top: 225px;
+}

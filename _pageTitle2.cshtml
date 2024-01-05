@@ -1,0 +1,13 @@
+<hgroup class="title">
+  @*<h1><a href="~/">@Page.Title</a></h1>*@
+  <div class="headline">
+    <h2><a href="@Href(@Page.titleLink)">@Page.Title2</a></h2>
+  </div>
+
+  <h3><a href="@Href(@Page.SubtitleLink)">@Page.Subtitle</a>
+        @if(!String.IsNullOrEmpty(@Page.Subsubtitle)){
+        @:&nbsp;<i class="fa fa-angle-right"></i> <a href="@Href(@Page.SubsubtitleLink)">@Page.Subsubtitle</a>
+      }
+  </h3>
+  
+</hgroup>

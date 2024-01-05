@@ -1,0 +1,29 @@
+<hgroup class="title">
+  @*<h1><a href="~/">@Page.Title</a></h1>*@
+  <h1 style = "font-size:26px", font-weight= "bold"><a href="@Href(@Page.titleLink)">@Page.title</a></h1>
+  <h3 class = "blueTextoverwrite"><a href="https://unstats.un.org/unsd/statcom/groups/NetEconStat/">@Page.Subtitle</a>
+    @*if(!String.IsNullOrEmpty(@Page.Subsubtitle)){
+     @:&nbsp;<i class="fa fa-angle-right"></i> <a href="@Href(@Page.SubsubtitleLink)">@Page.Subsubtitle</a>
+    }*@
+  </h3>
+</hgroup>
+
+
+
+<!--
+<hgroup class="title">
+    <div class="heading-v1">
+        <h2>@Page.Title</h2>
+    </div>
+        <h4><a href="@Href(@Page.SubtitleLink)">@Page.Subtitle</a></h4>
+        @if(!String.IsNullOrEmpty(@Page.Subsubtitle)){
+         @:&nbsp;<i class="fa fa-angle-right"></i> <a href="@Href(@Page.SubsubtitleLink)">@Page.Subsubtitle</a>
+        }
+
+        @*@if(!String.IsNullOrEmpty(@Page.Subsubtitle)){
+         @:&nbsp;<i class="fa fa-angle-right"></i> <a href="@Href(@Page.SubsubtitleLink)">@Page.Subsubtitle</a>
+        }*@
+
+</hgroup>
+-->
+
