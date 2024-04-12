@@ -1,7 +1,7 @@
 
 @{
     Layout = "_SiteLayout.cshtml";
-    Page.Sidebar = "Net_Econ_Meeting_1UB";
+    Page.Sidebar = "Net_Econ_Meeting_1U";
     Page.Title = "Third Meeting of Beyond GDP Sprint 2023";
     @*Page.Subtitle = "First Organizational Sprint Meeting of the United Nations Network of Economic Statisticians";
     Page.SubtitleLink ="~/index.cshtml";*@
@@ -15,7 +15,7 @@
     </ol>
 </nav>
 -->
-<div style= "margin-left:-10px;margin-top:-25px;">
+<div style= "margin-left:-10px;margin-top:-20px;">
 <ul class="list-inline benefits">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
@@ -26,12 +26,12 @@
 </ul>
 </div>
 
-<div class="content-section" style="margin-top:-7px;">
+<div class="content-section" style="margin-top:10px;">
     <div class="carousel-inner">
         <div class="item active" >
             @*<a href="@Href(@Page.SusubtitleLink)"><img alt="" src=@Href("~/assets/img/city-groups/oslo.jpg")></a>*@
-            <img alt="" src="~/groups/NetEconStat/img/BeyondGDP2023-3.png">
-            @*<img alt="" src="~/Assets/img/BeyondGDP2023-3.png">*@ 
+            <img alt="" src="~/groups/NetEconStat/img/BeyondGDP2023-3a.png">
+            @*<img alt="" src="~/Assets/img/BeyondGDP2023-3a.png"> *@
         </div>
     </div>
 </div>
@@ -39,7 +39,7 @@
 
 <!-- ======= CAROUSEL ==========-->
 
-<div class="tab-v1" style= "padding-top: 14px;">
+<div class="tab-v1" style= "padding-top: 16px;">
   <ul class="nav nav-tabs">
     <li class="active"><a data-toggle="tab" href="#Overview"><span class="tab-headings">Overview</span></a></li>
     <li><a data-toggle="tab" href="#Agenda"><span class="tab-headings">Agenda</span></a></li>
@@ -47,14 +47,17 @@
   </ul>
 </div>
 
-<br>
+
 
 <div class="tab-content">
 <!-- Overview tab -->
     <div id="Overview" class="tab-pane fade in active">
+            <br>
             <p>
-            The meeting on <i><b>What is the Role of Environmental, Social, and Governance (ESG) Data within <q>Beyond GDP</q> ?</b></i> will explore the 
-            feasibility of incorporating such data in measures to complement GDP.
+            This third meeting of the Beyond GDP 2023 Sprint series will look at progress made in the development of the standards to 
+            measure enterprises non-financial performance (<strong>Environment, Social and Governance- ESG</strong>). It will explore options to leverage 
+            existing data from other frameworks to fill in data gaps. The session should also be seen as an opportunity to discuss data 
+            users' need, existing tools and research progress on the subject.
             </p>
             
             <br>
@@ -64,9 +67,14 @@
     <!-- Agenda tab -->
     <div id="Agenda" class="tab-pane fade in">
         <div class="margin-bottom-30"></div>
-    <!--
+        <div class="well">
+            <ul class="list-unstyled" style=margin-left:1px>                        
+                <li><i class="fa fa-chevron-circle-right color-green margin-right-5"></i><a href="https://youtu.be/AAhGe6Vzo2E" target="_blank" >Meeting video  <i class="fa fa-youtube-play" aria-hidden="true" style ="color:red"></i></li>
+            </ul>
+        </div>
+    
             <h4 class="events">
-                <b>Tuesday, 1 November 2022 | 7:00 am - 10:00 am</b><br> 
+                <b>22 June 2023 | 7:00 am - 9:30 am (New York Time)</b><br> 
             </h4>
             <br>
             <div class="row">
@@ -75,21 +83,42 @@
                 </div>
 
                 <div class="col-md-9">
-                    <h5 style="font-weight:bold">Session 1| Opening remarks and objectives of the meeting</h5>
+                    <h5 style="font-weight:bold">Session 1| Opening, welcome, and scene-setting</h5>
                     
-                    <li><i class="fa fa-chevron-circle-right color-green margin-right-5"></i>Mr. Stefan Schweinfest, Director of United Nations Statistics Division</li>
-                    <li><i class="fa fa-chevron-circle-right color-green margin-right-5"></i>Mr. Andre Loranger, Assistant Chief Statistician, Strategic Data Management, Methods and Analysis, Statistics Canada </li><br>                       
-    
+                    <ul class= "list-unstyled">
+                    <li><i class="fa fa-chevron-circle-right color-green margin-right-5"></i>Opening and Welcome</li> 
+                    <li style="margin-left:17px;"><b>Presenter</b>: United Nations Statistics Division (<em>5 minutes</em>)</li>
+                    <li> </li>
+                    <li ><i class="fa fa-chevron-circle-right color-green margin-right-5"></i><a href="~/groups/NetEconStat/Meetings/GDPSprint2023ThirdMeeting/Session1-RDH-UNNES-Sprint-3June2023.pdf" target="_blank" style="color:blue">Recap from Meeting 2 - 15 June 2023 on Consulting Users on Wellbeing Themes</a></li>                       
+                    <li style="margin-left:17px;"><b>Presenter</b>: Richard Heys, Deputy Chief Economist, UK Office for National Statistics (<em>5 minutes</em>) </li> 
+                    <!--    <li style="margin-left:8px;"><b>Presentation</b>:<a href="~/groups/NetEconStat/Meetings/GDPSprint2023SecondMeeting/RDH-UNNES-Sprint-June-2023.pdf" target="_blank" >Beyond GDP Sprint Two Second Session   <i class="fa fa-file-pdf-o fa-fw" style="font-size:12px;color:red" aria-hidden="true"> </a></i></li>  -->
+                    </ul>
                 </div>
             </div>
 
+            <br>
+
             <div class="row">
                 <div class="col-md-3">
-                    <h5 class="events-time"><i class="fa fa-clock-o" style = "font-size:18px;color:red"></i> 7:10 am - 7:30 am </h5>
+                    <h5 class="events-time"><i class="fa fa-clock-o" style = "font-size:18px;color:red"></i> 7:10 am - 7:30 am </h5>                   
                 </div>
              
                 <div class="col-md-9">
-                    <h5 style="font-weight:bold">Session 2| Tour de table for introduction of members</h5>                                                             
+                    <h5 style="font-weight:bold">Session 2| International Sustainability Standards Board (ISSB) development of ESG standards and implementation </h5>                                                             
+                    <p><b>Chair: </b>Sonia Raizenne</p>
+                    <p>This session overviews the progress made to date on the development of ESG standards and the work plan for enterprises to implement sustainability reporting. </p>
+                    
+                    <ul class="list-unstyled">
+                        <li style = "margin-left:17px; text-indent: -9px;"><i class="fa fa-chevron-circle-right color-green margin-right-5"></i>Quick overview of the ESG landscape followed by ISSB standard development progress and implementation plan  </li> 
+                        <li style="margin-left:17px;"><b>Presenter</b>: Richard Barker, Board Member, International Sustainability Standards Board (<em>15 minutes</em>)</li>                       
+                        <li style="margin-left:17px;"><b>Presentation</b>:<a href="~/groups/NetEconStat/Meetings/GDPSprint2023ThirdMeeting/Barker-June-2023.pdf" target="_blank" > Sustainability information tailored to audience needs  <i class="fa fa-file-pdf-o fa-fw" style="font-size:12px;color:red" aria-hidden="true"> </a></i></li> 
+                    <!--    <li></li>
+                        <li><i class="fa fa-chevron-circle-right color-green margin-right-5"></i>Synthesis of Beyond GDP Metrics  </li>
+                        <li style="margin-left:17px;"><b>Presenter</b>: Rutger Hoekstra, Associate Professor, Leiden University (<em>15 minutes</em>)</li>
+                        <li style="margin-left:17px;"><b>Presentation</b>:<a href="~/groups/NetEconStat/Meetings/GDPSprint2023SecondMeeting/Synthesis-of-Beyond-GDP-Metrics_Rutger.pdf" target="_blank" > Synthesis of Beyond GDP Metrics  <i class="fa fa-file-pdf-o fa-fw" style="font-size:12px;color:red" aria-hidden="true"> </a></i></li>
+                    -->    <li></li>
+                        <li ><i class="fa fa-chevron-circle-right color-green margin-right-5"></i>Discussion (<em>5 minutes</em>)</li>
+                    </ul>               
                 </div>
             </div>
 
@@ -97,65 +126,126 @@
 
             <div class="row">
                 <div class="col-md-3">
-                    <h5 class="events-time"><i class="fa fa-clock-o" style = "font-size:18px;color:red"></i> 7:30 am - 9:30 am </h5>
+                    <h5 class="events-time"><i class="fa fa-clock-o" style = "font-size:18px;color:red"></i> 7:30 am - 7:50 am </h5>
                 </div>
                 
                 <div class="col-md-9">
-                    <h5 style="font-weight:bold">Session 3| Progress report and 2023 work plan </h5>
-                        <p>This session will discuss the outcomes of the following completed and ongoing sprints, and how the outcomes can be 
-                            incorporated into the 2023 work plan of the Network:
-                            
-                                <li><i class="fa fa-chevron-circle-right color-green margin-right-5"></i> <a href="~/groups/NetEconStat/Meetings/NetworkSprintFirstMeeting/Network-first-meeting-agenda-cover-note-agenda-item-3.pdf" target= "_blank"> Cover-note <i class="fa fa-file-pdf-o fa-fw" style="font-size:12px;color:red" aria-hidden="true"></i></a></li> 
-                                <li><i class="fa fa-chevron-circle-right color-green margin-right-5"></i> <a href="~/groups/NetEconStat/Meetings/NetworkSprintFirstMeeting/Joint-Task-Team-on-Access-to-Privately-Held Data_v2.pdf" target= "_blank"> Data access sprint - Lianne Ippel, Statistics Netherlands <i class="fa fa-file-pdf-o fa-fw" style="font-size:12px;color:red" aria-hidden="true"></i></a></li> 
-                                <li><i class="fa fa-chevron-circle-right color-green margin-right-5"></i> <a href="~/groups/NetEconStat/Meetings/NetworkSprintFirstMeeting/Regional-consultations-Network-meeting-final.pdf" target= "_blank"> Organizational sprint - user consultation - Ivo Havinga, Consultant <i class="fa fa-file-pdf-o fa-fw" style="font-size:12px;color:red" aria-hidden="true"></i></a></li>                                
-                                <li><i class="fa fa-chevron-circle-right color-green margin-right-5"></i> Beyond GDP sprint - Richard Heys, Office for National Statistics UK</a> <i class="fa fa-file-pdf-o fa-fw" style="font-size:12px;color:red" aria-hidden="true"></i></li>
-                                    <ul>
-                                        <li>&#x2022; <a href="~/groups/NetEconStat/Meetings/NetworkSprintFirstMeeting/Network-Frist-Meeting-UNECE-Heys-final-item-3e.pdf" target= "_blank" > Delivering the UN Network of Economic Statisticians &#39; Beyond GDP Vision</a> <i class="fa fa-file-pdf-o fa-fw" style="font-size:12px;color:red" aria-hidden="true"></i></li>
-                                        <li>&#x2022; <a href="~/groups/NetEconStat/Meetings/NetworkSprintFirstMeeting/NetworkFirstMeeting-Item-3d-Network-Beyond-GDP-Prospectus-for-distribution-v2.pdf" target= "_blank" > A prospectus for an integrated statistical system for inclusive and sustainable wellbeing</a> <i class="fa fa-file-pdf-o fa-fw" style="font-size:12px;color:red" aria-hidden="true"></i></li>
-                                    </ul>
-                                <li><i class="fa fa-chevron-circle-right color-green margin-right-5"></i> <a href="~/groups/NetEconStat/Meetings/NetworkSprintFirstMeeting/Presentation-on-measuring-inflation-in-OOH_prices sprint_Nov-1.pdf" target= "_blank" > Measurement of Inflation of Owner-Occupied Housing in the CPI sprint - Heidi Ertl, Statistics Canada and Dragos Ifrim, Statistics Canada</a> <i class="fa fa-file-pdf-o fa-fw" style="font-size:12px;color:red" aria-hidden="true"></i></li>                   
-                        </p>                                                                     
+                    <h5 style="font-weight:bold">Session 3| Aligning well-being concepts and metrics with ESG</h5>
+                    <p><b>Chair: </b>Sonia Raizenne</p>   
+                    <p>This session overviews the well-being framework and metrics at the macro and micro-level and how we can leverage this information and 
+                        align with ESG concepts. 
+                    </p>   
+                    <ul class="list-unstyled">
+                            <li style="margin-left:17px;text-indent: -9px;"><i class="fa fa-chevron-circle-right color-green margin-right-5"></i>Concepts of well-being and ESG links and aligning well-being metrics at the macro- and micro-level </li>
+                            <li style="margin-left:17px;"><b>Presenter</b>: Vincent Siegerink, Economist/Policy Analyst, Centre for Well-being, Inclusion, Sustainability and Equal Opportunity OECD (<em>15 minutes</em>)</li> 
+                            <li style="margin-left:17px;"><b>Presentation</b>:<a href="~/groups/NetEconStat/Meetings/GDPSprint2023ThirdMeeting/UN-Sprint-Beyond-GDP-Vincent-Siegerink-OECD-WISE-Centre.pdf" target="_blank" > Linking <b>ESG</b> and Well-Being  <i class="fa fa-file-pdf-o fa-fw" style="font-size:12px;color:red" aria-hidden="true"> </a></i></li>
+                            <li></li>
+                    <!--        <li><i class="fa fa-chevron-circle-right color-green margin-right-5"></i>The importance of Here & Now, the future and elsewhere </li> 
+                            <li style="margin-left:17px;"><b>Presenter</b>: Gerard Eding, Director, National Accounts, Statistics Netherlands (<em>15 minutes</em>) </li>                                
+                                                        <li style="margin-left:17px;"><b>Presentation</b>:<a href="~/groups/NetEconStat/Meetings/GDPSprint2023SecondMeeting/UNNES-Beyond-GDP-15-June-2023-Gerard-J-Eding.pdf" target="_blank" > The importance of Here & Now, the Future and Elsewhere  <i class="fa fa-file-pdf-o fa-fw" style="font-size:12px;color:red" aria-hidden="true"> </a></i></li>
+                    -->        <li></li>
+                            <li><i class="fa fa-chevron-circle-right color-green margin-right-5"></i>Discussion (<em>5 minutes</em>) </li>                   
+                    </ul>                       
                 </div>
             </div>
+
             <br>
+
             <div class="row">
                 <div class="col-md-3">
-                    <h5 class="events-time"><i class="fa fa-clock-o" style = "font-size:18px;color:red"></i> 9:30 am - 9:50 am </h5>
+                    <h5 class="events-time"><i class="fa fa-clock-o" style = "font-size:18px;color:red"></i> 7:50 am - 8:35 am </h5>
                 </div>
                 
                 <div class="col-md-9">
-                    <h5 style="font-weight:bold">Session 4| Report to the 54th session of the Statistical Commission  </h5>
-                        <p>This session will discuss the outline and elements of the report of the Network to the 54th session of the Statistical Commission. </p>
-                            <li><i class="fa fa-chevron-circle-right color-green margin-right-5"></i> <a href="~/groups/NetEconStat/Meetings/NetworkSprintFirstMeeting/Network-first-meeting-agenda-cover-note-agenda-item-4.pdf" target= "_blank"> Cover-note <i class="fa fa-file-pdf-o fa-fw" style="font-size:12px;color:red" aria-hidden="true"></i></a></li>    
-                            <li><i class="fa fa-chevron-circle-right color-green margin-right-5"></i> <strong>Presenter:</strong> Aishath Shahuda Co-Chair of the United Nations Network of Economic Statisticians and Deputy Chief Statistician Maldives Bureau of Statistics</li>               
-                                <ul>
-                                    <li>&#x2022; <a href="~/groups/NetEconStat/Meetings/NetworkSprintFirstMeeting/Network-First-Meeting-UNSC-report-final-agenda-item-4.pdf" target= "_blank" > Draft Report of the Network of Economic Statisticians to the 54th Session of the Statistical Commission - <em>presentation</em></a> <i class="fa fa-file-pdf-o fa-fw" style="font-size:12px;color:red" aria-hidden="true"></i></li>
-                                    <li>&#x2022; <a href="~/groups/NetEconStat/Meetings/NetworkSprintFirstMeeting/UNSC report 2023 of the Network-network meeting-v0_JC.pdf" target= "_blank" > Draft Report of the Network of Economic Statisticians to the 54th session of the Statistical Commission - <em>report</em></a> <i class="fa fa-file-pdf-o fa-fw" style="font-size:12px;color:red" aria-hidden="true"></i></li>
-                                </ul>
-                        </p>               
+                    <h5 style="font-weight:bold">Session 4| Including sustainability information in financial reporting - the views of the accounting community and results of wellbeing study</h5>
+                    <p><b>Chair: </b>Sonia Raizenne</p>   
+                    <p>This session provides an overview of the accounting community perspectives on these new non-financial measures and the tools that could support 
+                        this transition from conventional financial reporting to the inclusion of sustainability information. An overview of the results from the world's largest study of employee wellbeing involving 23 million 
+                        jobseekers in 3 countries (USA, the UK, and Canada) will also be provided. The findings indicate that wellbeing at work makes companies significantly more attractive to jobseekers. The integration of 
+                        wellbeing measurements into ESG metrics will help us evaluate social impact. 
+                    </p>
+                        
+                    <ul class="list-unstyled">
+                            <li><i class="fa fa-chevron-circle-right color-green margin-right-5"></i>Accounting community and enterprises data needs, in terms of ESG  </li>
+                            <li style="margin-left:17px;"><b>Presenter</b>: Helen Slinger, Executive Director, Knowledge and Learning, Accounting for Sustainability (A4S) (<em>15 minutes</em>)  </li> 
+                            <li style="margin-left:17px;"><b>Presentation</b>: <a href="~/groups/NetEconStat/Meetings/GDPSprint2023ThirdMeeting/Beyond-GDP-Sprint-2023-A4S.pdf" target="_blank" > Accounting Community and Enterprises Data Needs <i class="fa fa-file-pdf-o fa-fw" style="font-size:12px;color:red" aria-hidden="true"></i></a></li>
+                            <li></li>
+                            <li><i class="fa fa-chevron-circle-right color-green margin-right-5"></i>Measuring workplace wellbeing at scale </li> 
+                            <li style="margin-left:17px;"><b>Presenter</b>: Jan-Emmanuel De Neve, Professor of Economics & Director, Well-being Research Centre, University of Oxford (<em>15 minutes</em>) </li>                                
+                            <li style="margin-left:17px;"><b>Presentation</b>: <a href="~/groups/NetEconStat/Meetings/GDPSprint2023ThirdMeeting/DeNeve_Wellbeing-at-Work_UNStats.pdf" target="_blank" > Measuring workplace wellbeing at scale to help fill in the S in ESG <i class="fa fa-file-pdf-o fa-fw" style="font-size:12px;color:red" aria-hidden="true"></i></a></li>
+                            <li></li>
+                            <li><i class="fa fa-chevron-circle-right color-green margin-right-5"></i>Discussion (<em>15 minutes</em>) </li>                   
+                    </ul>                       
                 </div>
-            </div>   
+
+            </div>         
             
             <br>
 
             <div class="row">
                 <div class="col-md-3">
-                    <h5 class="events-time"><i class="fa fa-clock-o" style = "font-size:18px;color:red"></i> 9:50 am - 10:00 am </h5>
+                    <h5 class="events-time"><i class="fa fa-clock-o" style = "font-size:18px;color:red"></i> 8:35 am - 9:20 am </h5>
                 </div>
                 
                 <div class="col-md-9">
-                    <h5 style="font-weight:bold">Session 5| Concluding remarks </h5>
-                        @*<ul> 
-                            <li>Mr. Greg Peterson, Assistant Chief Statistician of Statistics Canada</li> 
-                            <li>Mr. Stefan Schweinfest, Director of United Nations Statistics Division</li>
-                        </ul>*@
-                                                                       
+                    <h5 style="font-weight:bold">Session 5| Sustainability reporting - challenges to expect and perspectives of national statistical offices (<em>5 minutes</em>)</h5>                                                                               
+                    <p><b>Chair: </b>Richard Heys</p>
+                    <P>This session highlights the urgent need for the adoption of international ESG standards and standard audit mechanisms, to improve public trust and avoid 
+                    greenwashing. An adjusted GDP for social and environmental impact needs to be discussed to improve resources allocation. Also, the role of national 
+                    statistical offices in addressing ESG data gaps is assessed, together with an overview of some experimental tools that have been developed to support the 
+                    transition to non-financial performance reporting. 
+                    </P>
+                    <ul class="list-unstyled">
+                            <li><i class="fa fa-chevron-circle-right color-green margin-right-5"></i>Sustainability reporting and the challenges to expect in the transition </li>
+                            <li style="margin-left:17px;"><b>Presenter</b>: Samir Trabelsi, Professor of Accounting and Governance, Brock University (<em>15 minutes</em>)   </li> 
+                            <li style="margin-left:17px;"><b>Presentation</b>: <a href="~/groups/NetEconStat/Meetings/GDPSprint2023ThirdMeeting/Third-Beyond-GDP-Sprint-2023-Meeting_Samir-Trabelsi.pdf" target="_blank" > GDP adjusted for ESG:No Action is Not an Option <i class="fa fa-file-pdf-o fa-fw" style="font-size:12px;color:red" aria-hidden="true"></i></a></li>
+                            <li></li>
+                            <li><i class="fa fa-chevron-circle-right color-green margin-right-5"></i>NSO perspective and experimentation  </li> 
+                            <li style="margin-left:17px;"><b>Presenter</b>: Sonia Raizenne, Director - Industrial Organization and Finance Division, Economic Statistics Field, Statistics Canada (<em>15 minutes</em>) </li>                                
+                            <li style="margin-left:17px;"><b>Presentation</b>: <a href="~/groups/NetEconStat/Meetings/GDPSprint2023ThirdMeeting/Overview-of-ESG-Project_United-Nations-June-22-2023.pdf" target="_blank" > What is the National Statistical Offices' role regarding ESG data? <i class="fa fa-file-pdf-o fa-fw" style="font-size:12px;color:red" aria-hidden="true"></i></a></li>
+                            <li></li>
+                            <li><i class="fa fa-chevron-circle-right color-green margin-right-5"></i>Discussion (<em>15 minutes</em>) </li>                   
+                    </ul>
                 </div>
             </div> 
+            
             <br>
-        -->
+
+            <div class="row">
+                <div class="col-md-3">
+                    <h5 class="events-time"><i class="fa fa-clock-o" style = "font-size:18px;color:red"></i> 9:20 am - 9:30 am</h5>
+                </div>
+                
+                <div class="col-md-9">
+                    <h5 style="font-weight:bold">Session 6 | Summary by Sonia Raizenn (<em>10 minutes</em>)</h5>                                                           
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <h5 class="events-time"><i class="fa fa-clock-o" style = "font-size:18px;color:red"></i> 9:30 am </h5>
+                </div>
+                
+                <div class="col-md-9">
+                    <h5 style="font-weight:bold">Adjourn</h5>                                                           
+                </div>
+            </div>      
+                        
+            
+
+            <div class="row" style="margin-bottom:10px;">                
+                <div class="col-md-3">                
+                </div>
+                <div class="col-md-9"; style="margin-top:-5px;">
+                    <hr style ="height:2px;border-width:0;color:gray;background-color:gray">    
+                    <br>
+                </div>
+            </div>
         </div>
-    
+        <br>
     </div>
+
     
 
